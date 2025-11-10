@@ -2,7 +2,6 @@ variable "variable" {
     type = map(string)
     default = {
       filename = "./test001.txt"
-      content = "i am variable tf"
+      content = "This is Variable Usage in Terraform"
     }
-  
 }
