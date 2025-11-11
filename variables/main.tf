@@ -1,12 +1,12 @@
 resource "local_file" "variable" {
-    filename = var.variable.filename
-    content = var.variable.content
-  
+  filename = var.variable.filename
+  content  = var.variable.content
+
 }
 
 resource "local_file" "welcome" {
-    filename = "./welcome.txt"
-    content = "Welcome To KodeKloude"
+  filename = "./welcome.txt"
+  content  = "Welcome To KodeKloude"
 }
 
 # terraform output
